@@ -36,10 +36,5 @@ class AdminController extends Controller
         }
         
     }
-    public function show(Request $product)
-    {
-        // $pictures=explode('|',$product->pictures);
-        // return view('product_details',compact('pictures','product'));
-        dd($product);
-    }
+   
 }
